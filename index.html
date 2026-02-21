@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Project</title>
+    </head>
+    <body>
+<section>
+            <div id="carouselExampleDark" class="carousel carousel-dark slide carousel-fade">
+              <div class="carousel-indicators" >
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <img src="walll1.avif" class="d-block mx-auto w-100" alt="..." style="height:800px;" >
+                  <div class="carousel-caption d-none d-md-block" style="top:28%;">
+  
+
+                    <h1 style="color:black" > Welecome to Our Cafe</h1>
+
+                    <a href="#Menu" class="btn btn-lg btn-primary  bg-blue " style="margin-left: 20px;">view Menu</a>
+                    <a href="#online order"  class="btn btn-lg btn-primary" style="background-color: #48a284; margin-left: 50px;">Order Online</a>
+
+                    <a href="#Reserve a table"  class="btn btn-lg btn-primary" style="background-color: #6a48a2; margin-left: 50px;">Reserve a Table</a>
+              
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="10000">
+                  <img src="https://plus.unsplash.com/premium_photo-1661953124283-76d0a8436b87?q=80&w=2088&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Df" class="d-block w-100" alt="..." style="width:800px; height:1000px;">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+            
+                  </div>
+                </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+       </section>
+
+
+       <!-- Contact Section-->
+  <section id="Contact" style="background-color: antiquewhite;">
+    <div class="container">
+      <h2 class="text-center mb-4">Contact Us</h2>
+      <form action="#" method="POST">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="mb-3">
+              <label for="name" class="form-label">Your Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="mb-3">
+              <label for="email" class="form-label">Your Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+            </div>
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" rows="4" placeholder="Your Message" required></textarea>
+        </div>
+        <div class="text-center">
+        <button type="submit" class="btn btn-dark" style="margin-bottom: 5%;">Send Message</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+   <!-- Co-founder Section -->
+   <h2 id="About" class="text-center mb-4">About Us</h2>
+  <section class="co-founder">
+    <div class="co-founder-content">
+      <img src="profile.jpg" alt="Co-founder" class="co-founder-image">
+      <div class="co-founder-text">
+        <h2>Meet Our Co-founder</h2>
+        <p>Our co-founder, Mr Sidharth, started this journey in 2025 with a passion for bringing people together over great coffee. With years of experience in the coffee industry, they’ve dedicated their career to creating a space where quality meets community.</p>
+      </div>
+    </div>
+  </section>
+
+  <!--About Our Café Section -->
+  <section class="about-cafe">
+    <h2>About Our Café</h2>
+    <p>Our café is more than just a place to grab a coffee its a welcoming space for anyone who enjoys exceptional coffee, delicious pastries, and a friendly atmosphere. Whether you're meeting friends or working remotely, our café provides the perfect environment for you to relax and enjoy the moment.</p>
+  </section>
+  <section class="cafe-places">
+    <h1>Our Café at Different Locations</h1>
+    <div class="slider-container">
+      <div class="slider-row">
+        <!-- Ranchi Branch -->
+        <div class="branch">
+          <h2>Ranchi Branch</h2>
+          <p>123 Coffee Street, Ranchi, Jharkhand</p>
+          <img src="ranchicafe.jpg" alt="Ranchi Café">
+        </div>
+  
+        <!-- Noida Branch -->
+        <div class="branch">
+          <h2>Noida Branch</h2>
+          <p>456 Mocha Lane, Noida, Uttar Pradesh</p>
+          <img src="noida1.jpeg" alt="Noida Café">
+        </div>
+  
+        <!-- Delhi Branch -->
+        <div class="branch">
+          <h2>Delhi Branch</h2>
+          <p>789 Espresso Blvd, New Delhi</p>
+          <img src="delhi.jpg" alt="Delhi Café">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+    <!--Menu Section--> 
+  <section id="Menu" style="background-color: antiquewhite;">
+    <div class="container">
+      <h2 class="text-center mb-4">Our Menu</h2>
+      <div class="row">
+
+        <!-- Espresso -->
+        <div class="col-md-4 menu-item">
+          <div class="card">
+            <img src="https://media.istockphoto.com/id/1157949372/photo/hot-coffee-in-red-cup-on-old-wooden-table-with-black-wall-background.jpg?s=612x612&w=0&k=20&c=n5yZGTPeesjA1iM4fVoKB-KTk2kmpVglVqQPNTgM4MM=" class="card-img-top" alt="Espresso" style="width: 1848; height: 250px;">
+            <div class="card-body">
+              <h5 class="card-title">Espresso</h5>
+              <p class="card-text">A rich, bold shot of espresso made from the finest coffee beans.</p>
+              <a href="#" class="btn btn-primary">Order Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cappuccino -->
+        <div class="col-md-4 menu-item">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1474255710329-379550af928d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGN1cCUyMG9mJTIwY29mZmVlfGVufDB8fDB8fHww" class="card-img-top" alt="Cappuccino"style="width: 1848; height: 250px;">
+            <div class="card-body">
+              <h5 class="card-title">Cappuccino</h5>
+              <p class="card-text">A creamy combination of espresso, steamed milk, and foam.</p>
+              <a href="#" class="btn btn-primary">Order Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Latte -->
+        <div class="col-md-4 menu-item">
+          <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZsjU7ngcDKxXFBHFwzs4a6y11MogHRGc4Xg&s" class="card-img-top" alt="Latte"style="width: 1848; height: 250px;">
+            <div class="card-body">
+              <h5 class="card-title">Latte</h5>
+              <p class="card-text">A smooth espresso drink with steamed milk and a light foam topping.</p>
+              <a href="#" class="btn btn-primary">Order Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Americano-->
+        <div class="col-md-4 menu-item">
+          <div class="card">
+            <img src="https://thumbs.dreamstime.com/b/black-coffee-glass-cup-brown-background-copy-space-345305159.jpg" class="card-img-top" alt="Americano"style="width: 1848; height: 250px;">
+            <div class="card-body">
+              <h5 class="card-title">Americano</h5>
+              <p class="card-text">It's typically made by brewing coffee in hot water and enjoyed plain. </p>
+              <a href="#" class="btn btn-primary">Order Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mocha-->
+        <div class="col-md-4 menu-item">
+          <div class="card">
+            <img src="https://thumbs.dreamstime.com/b/japanese-dessert-daifuku-mochi-sweet-bean-paste-fruits-stuffed-strawberry-kiwi-grapes-plate-cup-tea-flowers-pink-117654539.jpg" class="card-img-top" alt="Mocha"style="width: 1848; height: 250px;">
+            <div class="card-body">
+              <h5 class="card-title">Mocha</h5>
+              <p class="card-text">A smooth Mocha cream made by brewing espresso and adding hot water. .</p>
+              <a href="#" class="btn btn-primary">Order Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Matcha Tea-->
+        <div class="col-md-4 menu-item">
+          <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1Y4A3hcufQWU_bui3xxQoc2IvxsZbGlhV16hpWLASt7PM49LAdzY_nl6MEVkZ96NdmKo&usqp=CAU" class="card-img-top" alt="Matcha"style="width: 1848; height: 250px;">
+            <div class="card-body">
+              <h5 class="card-title">Matcha</h5>
+              <p class="card-text">Tea is like a hug in a cup - warm, comforting, and full of love.</p>
+              <a href="#" class="btn btn-primary">Order Now</a>
+            </div>
+          </div>
+        </div>
+         
+        <!--Oolong Tea-->
+        <div class="col-md-4 menu-item">
+          <div class="card">
+            <img src="https://static.vecteezy.com/system/resources/previews/055/353/745/non_2x/glass-cup-of-jasmine-tea-with-flowers-on-a-wooden-board-photo.jpg" class="card-img-top" alt="Oolong"style="width: 1848; height: 250px;">
+            <div class="card-body">
+              <h5 class="card-title">Oolong</h5>
+              <p class="card-text">Tea is like a hug in a cup - warm, comforting, and full of love.</p>
+              <a href="#" class="btn btn-primary">Order Now</a>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- Herbal Tea-->
+        <div class="col-md-4 menu-item">
+          <div class="card">
+            <img src="https://5.imimg.com/data5/SELLER/Default/2024/7/435436280/LW/MO/PY/2973019/curfe-herbal-coffee-500x500.png" class="card-img-top" alt="Herbal"style="width: 1848; height: 250px;">
+            <div class="card-body">
+              <h5 class="card-title">Herbal</h5>
+              <p class="card-text">Tea is like a hug in a cup - warm, comforting, and full of love.</p>
+              <a href="#" class="btn btn-primary">Order Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Milk Tea-->
+        <div class="col-md-4 menu-item">
+          <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYqg49y1dSQb-GIxPwGGCcUksAxFUMcYit1_mGb06CU3JBcI8joL8i6OxAFaqRNXJnEvk&usqp=CAU" class="card-img-top" alt="Herbal"style="width: 1848; height: 250px;">
+            <div class="card-body">
+              <h5 class="card-title">Milk</h5>
+              <p class="card-text">Tea is like a hug in a cup - warm, comforting, and full of love.</p>
+              <a href="#" class="btn btn-primary">Order Now</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="Gallery">
+    <div class="container">
+      <a class="navbar-brand" href="#">Our_Gallery</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container my-5">
+    <h2 class="gallery-title">Our Café Moments</h2>
+    <div class="row">
+
+      <!-- Gallery Item 1 -->
+      <div class="col-md-4 gallery-item">
+        <div class="card">
+          <img src="https://media.gettyimages.com/id/961009816/photo/waitress-placing-cake-at-table-for-family-in-restaurant.jpg?s=1024x1024&w=gi&k=20&c=hJNSmeiKiDsuzPakAZBZwt_esJr3EW0WjrqR8vPM2eE=" class="card-img-top gallery-img" alt="Café Image 4" style="width:2048;height: 300px;">
+        </div>
+      </div>
+
+      <!-- Gallery Item 2 -->
+      <div class="col-md-4 gallery-item">
+        <div class="card">
+          <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/04/92/25/winner-of-best-breakfast.jpg?w=900&h=500&s=1" class="card-img-top gallery-img" alt="Café Image 5" style="width:2048;height:300px;">
+        </div>
+      </div>
+
+      <!-- Gallery Item 3 -->
+      <div class="col-md-4 gallery-item">
+        <div class="card">
+          <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/51/11/ce/we-work-with-curve-coffee.jpg" class="card-img-top gallery-img" alt="Café Image 6" style="width:2048;height: 300px;">
+        </div>
+      </div>
+
+      <!-- Gallery Item 4 -->
+      <div class="col-md-4 gallery-item">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1633944241961-e511ab23455f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top gallery-img" alt="Café Image 7" style="width:2048;height: 300px;">
+        </div>
+      </div>
+
+      <!-- Gallery Item 5-->
+      <div class="col-md-4 gallery-item">
+        <div class="card">
+          <img src="https://m.media-amazon.com/images/I/51AF-5r3tzL._AC_UF1000,1000_QL80_DpWeblab_.jpg" class="card-img-top gallery-img" alt="Café Image 8" style="width:2048;height:300px;">
+        </div>
+      </div>
+
+      <!-- Gallery Item 6 -->
+      <div class="col-md-4 gallery-item">
+        <div class="card">
+          <img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/2-coffee-picker-el-salvador-john-coletti.jpg" class="card-img-top gallery-img" alt="Café Image 9 " style="width:2048;height: 300px;">
+        </div>
+      </div>
+
+      <!-- Gallery Item 7 -->
+      <div class="col-md-4 gallery-item">
+        <div class="card">
+          <img src="https://thefreshcollective.com.au/web/assets/img/001_AGNSW_Cafe_credit_Anna_Kucera-1.jpg" class="card-img-top gallery-img" alt="Café Image 10" style="width:2048;height:300px;">
+        </div>
+      </div>
+
+      
+      <!-- Gallery Item 8 -->
+      <div class="col-md-4 gallery-item">
+        <div class="card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwrnx4s-U1EHryeua8M5NQTXqHaVrgCtaEOzGaDgE71N5bfr1Kv2hRDc6xDmtup-7HdYA&usqp=CAU" class="card-img-top gallery-img" alt="Café Image 11" style="width:2048;height:300px;">
+        </div>
+      </div>
+
+      
+      <!-- Gallery Item 9-->
+      <div class="col-md-4 gallery-item">
+        <div class="card">
+          <img src="https://img.freepik.com/free-vector/realistic-tea-composition_1284-71439.jpg?ga=GA1.1.461466.1742576324&semt=ais_items_boosted&w=740" class="card-img-top gallery-img" alt="Café Image 12" style="width:2048;height:300px;">
+        </div>
+      </div>
+
+      
+      <!-- Gallery Item 10 -->
+      <div class="col-md-4 gallery-item">
+        <div class="card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwyHvnhiov3Xhlfr2_F6B6vu7S1cxIz1M_Lg&s" class="card-img-top gallery-img" alt="Café Image 13" style="width:2048;height:300px;">
+        </div>
+      </div>
+
+      
+      <!-- Gallery Item 11 -->
+      <div class="col-md-4 gallery-item">
+        <div class="card">
+          <img src="https://media.istockphoto.com/id/458308055/photo/women-harvest-tea-leaves-jorhat-assam-india.jpg?s=612x612&w=0&k=20&c=bm2zaYwpMWAk5Fg3E1bnUBeUZJ85ZMDyuLU7eYUR_qI=" class="card-img-top gallery-img" alt="Café Image 14" style="width:2048;height:300px;">
+        </div>
+      </div>
+
+      <!-- Gallery Item 12 -->
+      <div class="col-md-4 gallery-item">
+        <div class="card">
+          <img src="https://media.istockphoto.com/id/460913530/video/tea.jpg?s=640x640&k=20&c=BcCvLtCwEWR5WoSyfbq8-pfq46KoPExj9A2ZDfhiMlo=" class="card-img-top gallery-img" alt="Café Image 15" style="width:2048;height:300px;">
+        </div>
+      </div>
+
+      
+    </div>
+  </div>
+  
+   <!-- Reserve a table -->
+<section id="Reserve-a-table" style="background-color: #dde6e3;">
+  <div class="container">
+    <h2 class="text-center mb-4">Reserve a Table</h2>
+    <form id="reservationForm" action="#" method="POST">
+      <div class="row">
+        <!-- Name -->
+        <div class="col-md-6">
+          <div class="mb-3">
+            <label for="name" class="form-label">Your Name</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
+          </div>
+        </div>
+
+        <!-- Number of Guests -->
+        <div class="col-md-6">
+          <div class="mb-3">
+            <label for="guest" class="form-label">No of Guests</label>
+            <input type="number" class="form-control" id="guest" name="guest" max="20" min="1" placeholder="Enter number of guests" required>
+          </div>
+        </div>
+
+        <!-- Date -->
+        <div class="col-md-6">
+          <div class="mb-3">
+            <label for="date" class="form-label">Date</label>
+            <input type="date" class="form-control" id="date" name="date" required>
+          </div>
+        </div>
+
+        <!-- Time -->
+        <div class="col-md-6">
+          <div class="mb-3">
+            <label for="time" class="form-label">Time</label>
+            <input type="time" class="form-control" id="time" name="time" required>
+          </div>
+        </div>
+
+        <!-- Number of Tables to Reserve -->
+        <div class="col-md-6">
+          <div class="mb-3">
+            <label for="tables" class="form-label">No of Tables to Reserve</label>
+            <input type="number" class="form-control" id="tables" name="tables" min="1" max="20" placeholder="Enter number of tables" required>
+          </div>
+        </div>
+
+        <!-- Tables Left (Display Only) -->
+        <div class="col-md-6">
+          <div class="mb-3">
+            <label class="form-label">Tables Left</label>
+            <input type="number" class="form-control" id="tablesLeft" value="20" disabled>
+          </div>
+        </div>
+      </div>
+
+      <!-- Submit Button -->
+      <div class="text-center mt-3">
+        <button type="submit" class="btn btn-lg btn-primary" style="background-color: #48a284; margin-bottom: 5%;">Reserve Table</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- JavaScript to manage table availability -->
+<script>
+  let totalTables = 20;
+
+  const tableInput = document.getElementById('tables');
+  const tablesLeftInput = document.getElementById('tablesLeft');
+  const form = document.getElementById('reservationForm');
+
+  // Update tables left when number of tables to reserve changes
+  tableInput.addEventListener('input', function () {
+    let requestedTables = parseInt(this.value) || 0;
+    let tablesLeft = totalTables - requestedTables;
+    tablesLeftInput.value = tablesLeft >= 0 ? tablesLeft : 0;
+  });
+
+  // Handle form submission (simulate booking)
+  form.addEventListener('submit', function (e) {
+    e.preventDefault(); // Prevent actual submission
+    let requestedTables = parseInt(tableInput.value) || 0;
+
+    if (requestedTables > totalTables) {
+      alert("Not enough tables available.");
+      return;
+    }
+
+    totalTables -= requestedTables;
+    alert(`Table reserved successfully! ${totalTables} tables left.`);
+    tablesLeftInput.value = totalTables;
+
+    // Optionally reset the form
+    form.reset();
+  });
+</script>
+
+ <!-- FAQ Section -->
+  <div class="container faq-section" id="faq">
+    <h2 class="faq-title">Frequently Asked Questions</h2>
+    <div class="accordion" id="faqAccordion">
+      <!-- FAQ Item 1 -->
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h2 class="mb-0">
+            <button class="btn btn-link" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+              aria-expanded="true" aria-controls="collapseOne" style="color: rgb(79, 5, 14);">
+              What are your café hours?
+            </button>
+          </h2>
+        </div>
+
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+          <div class="card-body">
+            We are open Monday to Friday from 7:00 AM to 9:00 PM, and on weekends from 8:00 AM to 10:00 PM.
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ Item 2 -->
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h2 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+              aria-expanded="false" aria-controls="collapseTwo" style="color: rgb(67, 8, 18);">
+              Do you offer vegan options?
+            </button>
+          </h2>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+          <div class="card-body">
+            Yes! We have a variety of vegan-friendly options on our menu, including plant-based drinks and pastries.
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ Item 3 -->
+       <section>
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h2 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+           aria-expanded="false" aria-controls="collapseThree" style="color: rgb(67, 8, 18) ;">
+              Can I place an order online?
+            </button>
+          </h2>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+          <div class="card-body">
+            Yes, we offer online ordering through our website. You can choose your favorite items and pick them up in-store.
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ Item 4 -->
+      <div class="card">
+        <div class="card-header" id="headingFour">
+          <h2 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour"
+              aria-expanded="false" aria-controls="collapseFour" style="color: rgb(67, 8, 18);">
+              Do you have free Wi-Fi?
+            </button>
+          </h2>
+        </div>
+        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+          <div class="card-body">
+            Yes, we provide free Wi-Fi for our customers! Feel free to bring your laptop or device and enjoy your time here.
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ Item 5 -->
+      <div class="card">
+        <div class="card-header" id="headingFive">
+          <h2 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive"
+              aria-expanded="false" aria-controls="collapseFive" style="color: rgb(67, 8, 18);">
+              Can I book a table in advance?
+            </button>
+          </h2>
+        </div>
+        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
+          <div class="card-body">
+            Yes, we accept reservations for larger groups. Please contact us via phone or our website to reserve a table.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+
+  <!--Location-->
+<header>
+  <h1 id="Location">Our Location</h1>
+</header>
+
+<div class="location-section">
+  <h2>Visit Us</h2>
+  <p>123 Main Street 1, Manjhiaon City, India</p>
+
+  <div class="map-container">
+    <iframe
+     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20567.136768573535!2d83.80727019440957!3d24.318942701830448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398c16c5acfbe28b%3A0x1e16eebfeb3925d3!2sManjhiaon%2C%20Jharkhand%20822114!5e0!3m2!1sen!2sin!4v1745732117531!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </iframe>
+  </div>
+</div>
+</body>
+ </section>
+
+ <section>
+
+  <div class="container">
+  <h2 id="online order">Online Cafe Order</h2>
+  <form action="submit_order.php" method="POST">
+
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="address">Address:</label>
+    <input type="text" id="address" name="address" required>
+
+    <label for="city">City:</label>
+    <input type="text" id="city" name="city" required>
+
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" required>
+
+    <label for="date">Delivery Date:</label>
+    <input type="date" id="date" name="delivery_date" required>
+
+    <label for="time">Delivery Time:</label>
+    <input type="time" id="time" name="delivery_time" required>
+
+    <button type="submit" class="submit-btn">Place Order</button>
+  </form>
+</div>
+</section>
+
+
+
+<!-- Client Reviews Section -->
+<section id="client-reviews" style="background-color: #f7f7f7; padding: 60px 0;">
+  <div class="container">
+    <h2 class="text-center mb-5">What Our Customers Say</h2>
+    <div class="row g-4">
+      
+      <!-- Review 1 -->
+      <div class="col-md-4">
+        <div class="card h-100 border-0 shadow-sm">
+          <div class="card-body text-center">
+            <img src="https://randomuser.me/api/portraits/women/1.jpg" alt="Client 1" class="rounded-circle mb-3" width="80" height="80">
+            <h5 class="card-title">Emily Stone</h5>
+            <p class="text-muted small">"The coffee and atmosphere were absolutely perfect. A hidden gem in the city!"</p>
+            <div class="text-warning">
+              ★★★★☆
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Review 2 -->
+      <div class="col-md-4">
+        <div class="card h-100 border-0 shadow-sm">
+          <div class="card-body text-center">
+            <img src="https://randomuser.me/api/portraits/men/2.jpg" alt="Client 2" class="rounded-circle mb-3" width="80" height="80">
+            <h5 class="card-title">James Walker</h5>
+            <p class="text-muted small">"Great service, delicious pastries, and a cozy place to relax and read."</p>
+            <div class="text-warning">
+              ★★★★★
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Review 3 -->
+      <div class="col-md-4">
+        <div class="card h-100 border-0 shadow-sm">
+          <div class="card-body text-center">
+            <img src="https://randomuser.me/api/portraits/women/3.jpg" alt="Client 3" class="rounded-circle mb-3" width="80" height="80">
+            <h5 class="card-title">Sarah Lee</h5>
+            <p class="text-muted small">"I loved the latte art and the friendly staff. Will definitely come again!"</p>
+            <div class="text-warning">
+              ★★★★★
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+</body>
+</html>
