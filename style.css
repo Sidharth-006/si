@@ -427,14 +427,14 @@ body {
 <!--cafe order form-->
   body {
     font-family: Arial, sans-serif;
-    background-color: #fffaf5;
+    background-color: #4c2005;
     padding: 20px;
   }
 
   .form-container {
     max-width: 600px;
     margin: 0 auto;
-    background: #ffffff;
+    background: #520303;
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
